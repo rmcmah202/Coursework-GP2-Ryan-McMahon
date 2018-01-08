@@ -25,7 +25,7 @@ public:
 
 	inline glm::mat4 FindViewProjection() const
 	{
-		return projection * glm::lookAt(pos, pos + forward, up);
+		return projection * glm::lookAt(pos, pos + forward, up); //allows 3d perspective
 	}
 
 protected:
