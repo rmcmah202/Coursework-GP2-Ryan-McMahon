@@ -1,0 +1,16 @@
+﻿  Texture.cpp
+  MyShader.cpp
+  obj_loader.cpp
+c:\users\bryan\desktop\openal\gp2cw\lab1\obj_loader.cpp(378): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Meshes.cpp
+c:\users\bryan\desktop\openal\gp2cw\lab1\meshes.cpp(62): warning C4930: 'Sphere meshSphere(void)': prototyped function not called (was a variable definition intended?)
+  Game.cpp
+c:\users\bryan\desktop\openal\gp2cw\lab1\game.cpp(78): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\bryan\desktop\openal\gp2cw\lab1\game.cpp(83): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\bryan\desktop\openal\gp2cw\lab1\game.cpp(171): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  GameDisplay.cpp
+  Sound.cpp
+  Generating Code...
+  stb_image.c
+  Lab1.vcxproj -> C:\Users\Bryan\Desktop\OpenAL\GP2CW\Debug\Lab1.exe
