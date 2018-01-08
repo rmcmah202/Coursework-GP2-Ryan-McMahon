@@ -16,14 +16,14 @@ public:
 
 	inline glm::mat4 GetModel() const
 	{
-		glm::mat4 positionOfMaterial = glm::translate(position);
-		glm::mat4 scaleOfMaterial = glm::scale(scale);
+		glm::mat4 positionOfMatrice = glm::translate(position);
+		glm::mat4 scaleOfMatrice = glm::scale(scale);
 		glm::mat4 rotationX = glm::rotate(rotation.x, glm::vec3(1.0, 0.0, 0.0));
 		glm::mat4 rotationY = glm::rotate(rotation.y, glm::vec3(0.0, 1.0, 0.0));
 		glm::mat4 rotationZ = glm::rotate(rotation.z, glm::vec3(0.0, 0.0, 1.0));
-		glm::mat4 rotationOfMaterial = rotationX * rotationY * rotationZ;
+		glm::mat4 rotationOfMatrice = rotationX * rotationY * rotationZ;
 
-		return positionOfMaterial * rotationOfMaterial * scaleOfMaterial;
+		return positionOfMatrice * rotationOfMatrice * scaleOfMatrice;
 	}
 
 	inline glm::vec3* GetPos() { return &position; } //getters
